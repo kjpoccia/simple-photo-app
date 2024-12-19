@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Photo Gallery</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="stylesheets/gallery.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.8/handlebars.min.js" integrity="sha512-E1dSFxg+wsfJ4HKjutk/WaCzK7S2wv1POn1RRPGh8ZK+ag9l244Vqxji3r6wgz9YBf6+vhQEYJZpSjqWFPg9gg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <main>
+      <h1>KJ Poccia's Photos</h1>
+      <div id="slideshow">
+        <div id="slides">
+        </div>
+        <ul>
+          <li><a class="prev" href="#">Prev</a></li>
+          <li><a class="next" href="#">Next</a></li>
+        </ul>
+      </div>
+
+      <section>
+        <header>
+        </header>
+
+      </section>
+    </main>
+
+    <script id="photos" type="text/x-handlebars">
+      {{#each photos}}
+      <figure data-id="{{id}}">
+        <img src="{{src}}"/>
+        <figcaption>{{caption}}</figcaption>
+      </figure>
+      {{/each}}
+    </script>
+
+    <script src="javascripts/gallery.js"></script>
+  </body>
+</html>
