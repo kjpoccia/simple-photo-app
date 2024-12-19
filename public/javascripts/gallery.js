@@ -69,17 +69,25 @@ document.addEventListener('DOMContentLoaded', () => {
 	(function getPhotos() {
 		photos = [
 			{
-			  "src": "/images/IMG_5220.jpeg",
+			  "src": "/images/IMG_0126.jpeg",
 			  "id": 1
 			},
 			{
-			  "src": "/images/IMG_5150.jpeg",
+			  "src": "/images/IMG_2398.jpeg",
 			  "id": 2
 			},
 			{
-			  "src": "/images/IMG_5219.jpeg",
+			  "src": "/images/IMG_2624.jpeg",
 			  "id": 3
-			}
+			},
+			{
+				"src": "/images/IMG_3361.jpeg",
+				"id": 3
+			},
+			{
+				"src": "/images/IMG_6281.jpeg",
+				"id": 3
+			},
 		  ]
 		renderPhotos()
 		slideshow.init()
