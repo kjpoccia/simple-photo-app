@@ -73,20 +73,16 @@ document.addEventListener('DOMContentLoaded', () => {
 			  "id": 1
 			},
 			{
-			  "src": "/images/IMG_2398.jpeg",
+			  "src": "/images/IMG_2624.jpeg",
 			  "id": 2
 			},
 			{
-			  "src": "/images/IMG_2624.jpeg",
+			  "src": "/images/IMG_3361.jpeg",
 			  "id": 3
 			},
 			{
-				"src": "/images/IMG_3361.jpeg",
-				"id": 3
-			},
-			{
-				"src": "/images/IMG_6281.jpeg",
-				"id": 3
+			  "src": "/images/IMG_2047.jpeg",
+			  "id": 4
 			},
 		  ]
 		renderPhotos()
